@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: Roboto Condensed;
     transition: all 1s ease;
+
+  
 }
+
 
 nav {
     display: flex;
@@ -61,7 +64,7 @@ ul li:hover {
 
 /* RESPONSIVENESS */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
     nav {
         width: 100%;
         background-color: #FAC23D;
@@ -177,7 +180,7 @@ ul li:hover {
     transform: scale(1.1);
 }
 
-@media screen and (max-width:425px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
     .section1 {
         height: 600px;
     }
@@ -198,13 +201,13 @@ ul li:hover {
 
     .section1text p {
         margin-top: 30px;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 400;
     }
 
     .section1text button {
         margin-top: 30px;
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
 
 
@@ -293,7 +296,7 @@ ul li:hover {
     z-index: 1;
 }
 
-@media screen and (min-width:425px) and (max-width:900px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
 
     .section2 {
@@ -416,7 +419,11 @@ ul li:hover {
     border-bottom: 4px solid black;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
+
+    .section3 {
+        width: 100%;
+    }
 
     .section3 .section3page {
         /* padding-top: 70px; */
@@ -424,7 +431,7 @@ ul li:hover {
         padding: 0px 3vw;
         padding-top: 50px;
         /* height: 90rem; */
-        width: fit-content;
+        /* width: 100%; */
 
 
     }
@@ -441,24 +448,30 @@ ul li:hover {
         gap: 20px;
         display: flex;
         flex-direction: column-reverse;
-        position: none;
+        /* position: none; */
+        padding: 10px;
         width: fit-content;
+        left: 10px;
 
     }
 
     .section3cards .cards {
         font-size: 18px;
-        padding: 20px;
+        padding: 15px;
+        width: fit-content;
+
 
     }
 
 
+
     .cards img {
-        width: 70%;
+        width: 50%;
     }
 
     .cards p {
         line-height: 25px;
+        font-size: 14px;
     }
 
 }
@@ -552,7 +565,7 @@ ul li:hover {
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .section4 {
         background-image: url(/IMAGES/section4img01.jpeg);
@@ -731,7 +744,7 @@ ul li:hover {
     color: white;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .orange .orangeimg {
         width: 300px;
@@ -792,10 +805,10 @@ ul li:hover {
     }
 
     .whiteimg img {
-        width: 100%;
+        width: 80%;
         position: absolute;
         top: 50px;
-        left: 20px;
+        /* left: px; */
     }
 
     .sec5img {
@@ -817,12 +830,13 @@ ul li:hover {
         color: white;
         background-color: black;
         width: fit-content;
-        /* height: auto; */
+
         top: 700px;
-        left: 10px;
+        left: 4px;
         padding: 10px;
         position: absolute;
         border-radius: 8px;
+        
         z-index: 10;
     }
 
@@ -832,7 +846,7 @@ ul li:hover {
     }
 
     .sec5text p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 23px;
         margin-bottom: 20px;
         word-wrap: 20;
@@ -935,7 +949,7 @@ ul li:hover {
     font-size: 20px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px){
 
     .sec6text h1 {
         font-size: 25px;
@@ -952,9 +966,6 @@ ul li:hover {
     }
 }
 
-.sec7page {
-    /* border: 2px solid black; */
-}
 
 .sec7page .sec7grey {
     width: 100%;
@@ -1028,7 +1039,7 @@ ul li:hover {
     color: grey;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px){
 
     .sec7page .sec7grey {
         width: 100%;
@@ -1260,7 +1271,7 @@ ul li:hover {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .sec8text {
         font-size: 20px;
@@ -1269,12 +1280,12 @@ ul li:hover {
 
     .gallery-container {
         height: 300px;
-        max-width: 90%;
+        max-width: 85%;
     }
 
     .gallery-item {
         height: 100px;
-        width: 100px;
+        width: 80px;
     }
 
     .gallery-item-1 {
@@ -1284,7 +1295,7 @@ ul li:hover {
     .gallery-item-2,
     .gallery-item-4 {
         height: 200px;
-        width: 100px;
+        width: 80px;
     }
 
     .gallery-item-2 {
@@ -1385,20 +1396,20 @@ ul li:hover {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .section9page {
-        padding: 40px;
+        padding: 10px;
     }
 
     .section9page .sec9h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 20px;
 
     }
 
     .section9page p {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 300;
         margin-bottom: 20px;
     }
@@ -1562,7 +1573,7 @@ footer .workinghours h3 {
     border-bottom: 3px solid #FAC23D;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .section10page .section10orange {
         height: 80%;
@@ -1579,12 +1590,12 @@ footer .workinghours h3 {
         gap: 20px;
         background-color: white;
         padding: 20px;
-        left: 30px;
+        left: 15px;
 
     }
 
     form input {
-        width: 300px;
+        width: 250px;
         height: 40px;
         padding: 10px;
 
@@ -1593,13 +1604,13 @@ footer .workinghours h3 {
     form .Descriptions {
 
         margin-top: 20px;
-        width: 300px;
+        width: 250px;
         height: 90px;
 
     }
 
     form button {
-        padding: 15px 120px;
+        padding: 15px 100px;
         margin-top: 10px;
         font-size: 20px;
         font-weight: bold;
