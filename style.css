@@ -5,7 +5,7 @@
     font-family: Roboto Condensed;
     transition: all 1s ease;
 
-  
+
 }
 
 
@@ -451,7 +451,7 @@ ul li:hover {
         /* position: none; */
         padding: 10px;
         width: fit-content;
-        left: 10px;
+        left: 40px;
 
     }
 
@@ -596,7 +596,7 @@ ul li:hover {
     }
 
     .section4card .sec4cards {
-        width: fit-content;
+        width: 300px;
         padding: 30px 40px;
         background-color: #FAC23D;
         border-radius: 9px;
@@ -829,27 +829,29 @@ ul li:hover {
     .sec5text {
         color: white;
         background-color: black;
-        width: fit-content;
+        width: 300px;
 
         top: 700px;
-        left: 4px;
-        padding: 10px;
+        left: 40px;
+        /* padding: 9px; */
         position: absolute;
         border-radius: 8px;
-        
+
         z-index: 10;
     }
 
     .sec5text h1 {
         font-size: 30px;
         margin-bottom: 20px;
+        width: fit-content;
     }
 
     .sec5text p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 23px;
         margin-bottom: 20px;
-        word-wrap: 20;
+        width: fit-content;
+        /* word-wrap: 20; */
     }
 
     .sec5text button {
@@ -949,7 +951,7 @@ ul li:hover {
     font-size: 20px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 768px){
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .sec6text h1 {
         font-size: 25px;
@@ -1039,7 +1041,7 @@ ul li:hover {
     color: grey;
 }
 
-@media screen and (min-width: 200px) and (max-width: 768px){
+@media screen and (min-width: 200px) and (max-width: 768px) {
 
     .sec7page .sec7grey {
         width: 100%;
@@ -1421,6 +1423,7 @@ ul li:hover {
         width: fit-content;
         margin-top: 30px;
         margin-bottom: 20px;
+        padding-left: 10px;
     }
 }
 
@@ -1585,33 +1588,43 @@ footer .workinghours h3 {
     }
 
     footer {
-        width: fit-content;
+        width: 300px;
         display: flex;
         flex-direction: column;
         gap: 20px;
         background-color: white;
         padding: 20px;
-        left: 15px;
+        left: 40px;
 
     }
 
     form input {
-        width: 250px;
+        width: 200px;
         height: 40px;
         padding: 10px;
 
     }
 
+    form input::placeholder {
+        font-size: 15px;
+    }
+
     form .Descriptions {
 
         margin-top: 20px;
-        width: 250px;
+        width: 200px;
         height: 90px;
+        font-size: 15px;
+        padding: 10px;
 
     }
 
+    form .Descriptions::placeholder {
+        font-size: 15px;
+    }
+
     form button {
-        padding: 15px 100px;
+        padding: 15px 80px;
         margin-top: 10px;
         font-size: 20px;
         font-weight: bold;
