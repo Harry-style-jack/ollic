@@ -1489,6 +1489,7 @@ form input {
     border-top: none;
     border-left: none;
     border-right: none;
+    font-size: 20px;
 }
 
 form input::placeholder {
