@@ -182,7 +182,7 @@ ul li:hover {
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
     .section1 {
-        height: 600px;
+        height: 750px;
     }
 
     .section1 .section1page {
@@ -829,10 +829,9 @@ ul li:hover {
     .sec5text {
         color: white;
         background-color: black;
-        width: 300px;
-
+        width: 330px;
         top: 700px;
-        left: 40px;
+        left: 30px;
         /* padding: 9px; */
         position: absolute;
         border-radius: 8px;
@@ -1588,18 +1587,18 @@ footer .workinghours h3 {
     }
 
     footer {
-        width: 300px;
+        width: 330px;
         display: flex;
         flex-direction: column;
         gap: 20px;
         background-color: white;
         padding: 20px;
-        left: 40px;
+        left: 30px;
 
     }
 
     form input {
-        width: 200px;
+        width: 250px;
         height: 40px;
         padding: 10px;
 
@@ -1612,7 +1611,7 @@ footer .workinghours h3 {
     form .Descriptions {
 
         margin-top: 20px;
-        width: 200px;
+        width: 250px;
         height: 90px;
         font-size: 15px;
         padding: 10px;
@@ -1624,7 +1623,7 @@ footer .workinghours h3 {
     }
 
     form button {
-        padding: 15px 80px;
+        padding: 15px 100px;
         margin-top: 10px;
         font-size: 20px;
         font-weight: bold;
