@@ -34,7 +34,13 @@ ul {
 
 }
 
-ul li:hover {
+
+.links li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
     color: #d6c59d;
 }
 
